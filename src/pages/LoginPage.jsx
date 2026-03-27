@@ -232,7 +232,7 @@ export default function LoginPage() {
           </div>
         </div>
         <div className="relative z-10 mt-8 md:mt-0">
-          <p className="text-green-500 text-xs">© {new Date().getFullYear()} Philippine Fiber Industry Development Authority</p>
+          <p className="text-green-500 text-xs">© {new Date().getFullYear()}Fiber Industry Development Authority</p>
         </div>
       </div>
 
