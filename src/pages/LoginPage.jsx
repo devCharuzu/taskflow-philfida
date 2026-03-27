@@ -352,7 +352,7 @@ export default function LoginPage() {
                 </select>
               </div>
               <div>
-                <label className="label"></label>
+                <label className="label">Password</label>
                 <div className="relative">
                   <input className="input pr-10" type={showRegPass ? 'text' : 'password'} placeholder="Create a password" value={regPass} onChange={e => setRegPass(e.target.value)} required />
                   <button type="button" onClick={() => setShowRegPass(!showRegPass)} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
@@ -366,7 +366,7 @@ export default function LoginPage() {
             </form>
           )}
 
-          <p className="text-center text-slate-400 text-xs mt-8">PhilFIDA Task Management System v2.0</p>
+          <p className="text-center text-slate-400 text-xs mt-8">All rights reserved.</p>
         </div>
       </div>
     </div>
