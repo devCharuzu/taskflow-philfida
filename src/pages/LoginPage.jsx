@@ -232,7 +232,7 @@ export default function LoginPage() {
           </div>
         </div>
         <div className="relative z-10 mt-8 md:mt-0">
-          <p className="text-green-500 text-xs">© {new Date().getFullYear()}Fiber Industry Development Authority</p>
+          <p className="text-green-500 text-xs">© {new Date().getFullYear()} Philippine Fiber Industry Development Authority</p>
         </div>
       </div>
 
@@ -352,7 +352,7 @@ export default function LoginPage() {
                 </select>
               </div>
               <div>
-                <label className="label">Password</label>
+                <label className="label"></label>
                 <div className="relative">
                   <input className="input pr-10" type={showRegPass ? 'text' : 'password'} placeholder="Create a password" value={regPass} onChange={e => setRegPass(e.target.value)} required />
                   <button type="button" onClick={() => setShowRegPass(!showRegPass)} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
